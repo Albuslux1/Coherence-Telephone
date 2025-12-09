@@ -6,6 +6,10 @@ def run_enhanced_simulation():
     # -------------------------------------------
 J_coupling = 10.0
 gamma      = 0.2
+
+J_coupling     = 15.0      # crank the drive harder
+gamma          = 0.1       # even longer coherence time (realistic for Chern-4+)
+mod_amplitude  = 0.8       # stronger entropy kicks (clearer 1 vs 0)
     # ... rest of my code ...
 
 """
