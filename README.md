@@ -45,6 +45,8 @@ If the answer is **no**, this ends cleanly.
 If the answer is **yes**, we are standing at the edge of the biggest communications shift since Maxwell.
 
 ---
+****TECHNICAL WHITEPAPER****
+       [Coherence_Telephone_Technical_Whitepaper.pdf](https://github.com/user-attachments/files/24089787/Coherence_Telephone_Technical_Whitepaper.pdf)
 
 ## 🌌 Why This Matters (If It's Real)
 
