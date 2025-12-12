@@ -1,94 +1,113 @@
-# Coherence Telephone - Mathematical Notation Guide v2.0
+# Notation Guide — Coherence Telephone Framework
 
-## Core Symbols
+## Symbol Conventions
 
-### Coherence Field
-- **Symbol:** $C$
-- **Type:** Scalar field
-- **Definition:** $C = e^{-S/k} \cdot \Phi$
-- **Physical meaning:** Measure of system coherence (0 to ∞)
-- **Units:** Dimensionless
+To avoid confusion between similar-looking symbols, this framework uses the following conventions:
 
-### Chern Number  
-- **Symbol:** $\mathcal{C}$ (script C)
-- **Type:** Topological invariant (integer)
-- **Definition:** $\mathcal{C} = \frac{1}{2\pi}\int_{BZ} F_{12}(\mathbf{k}) d^2k$
-- **Physical meaning:** Topological quantum number, acts as "address" in coherence field space
-- **Values:** $\mathcal{C} \in \mathbb{Z}$ (typically $\mathcal{C} \geq 3$ for sufficient protection)
+---
 
-### Entropy
-- **Symbol:** $S$
-- **Type:** Thermodynamic state variable
-- **Units:** J/K
-- **Physical meaning:** Information entropy of system
+## Primary Symbols
 
-### Phase Alignment
-- **Symbol:** $\Phi$
-- **Type:** Dimensionless factor
-- **Range:** $\Phi \in [0, 1]$
-- **Physical meaning:** Degree of phase coherence
+| Symbol | Name | Meaning | Units | Notes |
+|:------:|:-----|:--------|:------|:------|
+| **C** | Coherence field | The proposed nonlocal field mediating information transfer | dimensionless | Primary output variable |
+| **𝒞** | Chern number | Topological invariant (integer) characterizing the system | dimensionless | Always an integer ≥ 0 |
+| **θ** | Axion angle | θ = 2π𝒞; determines EM coupling strength | radians | Quantized in units of π |
+| **Φ** | Coherence potential | Domain-specific coherence amplitude | dimensionless | Mode-dependent: Φ_𝒞 |
 
-### Coupling Constant
-- **Symbol:** $\lambda$
-- **Type:** Empirical parameter
-- **Units:** [Energy/Chern number/field value]
-- **Physical meaning:** Strength of topology-field coupling
+---
 
-### Coherence Field Potential
-- **Symbol:** $\Phi_C(\mathbf{x},t)$
-- **Type:** Field configuration
-- **Physical meaning:** Local coherence field value at spacetime point
+## Electromagnetic Quantities
+
+| Symbol | Name | Meaning | Units |
+|:------:|:-----|:--------|:------|
+| **E** | Electric field | Vector electric field | V/m |
+| **B** | Magnetic field | Vector magnetic field | Tesla (T) |
+| **E·B** | EM pseudoscalar | Dot product of E and B | V·T/m |
+| **F_μν** | Field tensor | Electromagnetic field strength tensor | V/m, T |
+| **A_μ** | 4-potential | Electromagnetic 4-potential | V, V·s/m |
+
+---
+
+## Physical Constants
+
+| Symbol | Name | Value | Units |
+|:------:|:-----|:------|:------|
+| **α** | Fine structure constant | ≈ 1/137 | dimensionless |
+| **ℏ** | Reduced Planck constant | 1.054 × 10⁻³⁴ | J·s |
+| **c** | Speed of light | 299,792,458 | m/s |
+| **e** | Elementary charge | 1.602 × 10⁻¹⁹ | C |
+| **h** | Planck constant | 6.626 × 10⁻³⁴ | J·s |
+
+---
+
+## Framework-Specific Parameters
+
+| Symbol | Name | Meaning | Determination |
+|:------:|:-----|:--------|:--------------|
+| **β** | Coupling constant | Strength of E·B → C coupling | Experimental |
+| **k** | Entropy scale | Normalization in C = e^(-S/k) | Context-dependent |
+| **S** | Informational entropy | System disorder measure | Calculated |
+| **T** | Integration time | Time window for coherence calculation | Protocol-defined |
+
+---
+
+## Subscript Conventions
+
+| Notation | Meaning |
+|:---------|:--------|
+| **C_A, C_B** | Coherence field at Node A, Node B |
+| **𝒞_A, 𝒞_B** | Chern number of system A, system B |
+| **Φ_𝒞** | Coherence potential for mode with Chern number 𝒞 |
+| **θ_A, θ_B** | Axion angle of system A, system B |
 
 ---
 
 ## Key Relationships
 
-### Topology-Field Coupling
-$$H_{\text{coupling}} = \lambda \cdot \mathcal{C} \cdot \Phi_C(\mathbf{x},t)$$
+### Topology → Coupling
 
-Two systems couple to same field manifold when:
-$$\mathcal{C}_A = \mathcal{C}_B$$
+$$\mathcal{C} \xrightarrow{\theta = 2\pi\mathcal{C}} \theta \xrightarrow{\Delta\mathcal{L}} \text{EM coupling}$$
 
-### Addressing Mechanism
-The Chern number $\mathcal{C}$ acts as a quantized "address" in coherence field configuration space:
-- Systems with matching $\mathcal{C}$ → coupled to same $C$-field mode
-- Systems with different $\mathcal{C}$ → decoupled (orthogonal field modes)
-- Similar to radio frequencies: matching frequency = same communication channel
+### Coherence Field (E·B formulation)
 
-### Information Encoding
-At Node A:
-$$S_A(t) = S_0 + \Delta S \cdot \text{bit}(t)$$
+$$C = \exp\left(-\beta \int_0^T |\mathbf{E} \cdot \mathbf{B}|^2 \, dt\right) \cdot \Phi_{\mathcal{C}}$$
 
-Changes local coherence:
-$$C_A(t) = e^{-S_A(t)/k} \cdot \Phi_A$$
+### Axion Electrodynamics Term
 
-At Node B (if field is nonlocal):
-$$C_B(t) = C_A(t - \tau)$$
+$$\Delta \mathcal{L} = \frac{\theta \alpha}{2\pi} (\mathbf{E} \cdot \mathbf{B})$$
 
-Where $\tau$ is field response time.
+### Topological Magnetoelectric Effect
+
+$$\mathbf{P} = \frac{\theta}{2\pi} \cdot \frac{e^2}{h} \mathbf{B} \qquad \mathbf{M} = \frac{\theta}{2\pi} \cdot \frac{e^2}{h} \mathbf{E}$$
 
 ---
 
-## Notation Changes from v1.0
+## Rendering Notes
 
-**v1.0 → v2.0:**
-- ~~$C$ (Chern number)~~ → $\mathcal{C}$ (Chern number)
-- $C$ (coherence field) → $C$ (unchanged, now unambiguous)
-- Added $\Phi_C(\mathbf{x},t)$ for field potential to distinguish from phase alignment $\Phi$
+### LaTeX in GitHub Markdown
 
----
+- **Inline math:** `$...$` renders as inline
+- **Display math:** `$$...$$` renders as block
 
-## Typography Guidelines
+### Unicode Symbols
 
-**For GitHub Markdown:**
-- Inline math: `$\mathcal{C}$` renders as $\mathcal{C}$
-- Display math: `$$\mathcal{C} = \frac{1}{2\pi}\int_{BZ} F_{12} d^2k$$`
-- Script C: `\mathcal{C}` (preferred for Chern number)
-- Bold: `\mathbf{x}` for vectors
-- Operators: `\text{bit}(t)` for text in equations
+- **𝒞** = U+1D49E (Mathematical Script Capital C)
+- **Φ** = U+03A6 (Greek Capital Letter Phi)
+- **θ** = U+03B8 (Greek Small Letter Theta)
+- **α** = U+03B1 (Greek Small Letter Alpha)
+- **β** = U+03B2 (Greek Small Letter Beta)
 
 ---
 
-**Version:** 2.0  
-**Last Updated:** December 12, 2024  
-**Status:** Official notation for all Coherence Telephone documentation
+## Version History
+
+| Version | Date | Changes |
+|:--------|:-----|:--------|
+| 1.0 | Dec 10, 2025 | Initial notation (C for both coherence and Chern) |
+| 2.0 | Dec 11, 2025 | Fixed notation conflict: C = coherence, 𝒞 = Chern |
+| 2.1 | Dec 12, 2025 | Added axion electrodynamics symbols (θ, E·B, F_μν) |
+
+---
+
+*Notation matters. Clarity enables collaboration.*
