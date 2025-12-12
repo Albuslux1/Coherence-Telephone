@@ -142,36 +142,6 @@ A = A₀ sin(kx - 2πf(t)·t)
 
 ---
 
-## Why This Matters for Wilhelm
-
-### **Professional Signals:**
-
-1. **Systematic Approach:**
-   - Not just one test, comprehensive matrix
-   - All functionals compared fairly
-   - Multiple modulation schemes
-   - **Real research methodology**
-
-2. **Quantified Results:**
-   - BER metrics (standard in comms)
-   - Separation margins
-   - Statistical comparison
-   - **Not just "it works" claims**
-
-3. **Honest Presentation:**
-   - Shows what doesn't work (AM/FSK poor)
-   - Shows what does work (PM + entropy)
-   - Clear winner identified
-   - **Scientific integrity**
-
-4. **Practical Engineering:**
-   - Different tools for different jobs
-   - Matched filter concept (right functional for right modulation)
-   - Real signal processing thinking
-   - **Engineering maturity**
-
----
-
 ## Implications
 
 ### **For Coherence Field Hypothesis:**
@@ -218,7 +188,6 @@ A = A₀ sin(kx - 2πf(t)·t)
 
 ---
 
-## Next Steps (If Wilhelm Interested)
 
 ### **Immediate:**
 1. Test with different bit patterns (generalization)
@@ -255,18 +224,9 @@ A = A₀ sin(kx - 2πf(t)·t)
 - "Ready for hardware" ❌
 - **Just methodology + baseline metrics** ✓
 
-**What Wilhelm will think:**
-> "This person understands systematic comparison, professional benchmarking, and honest presentation of results. The PM + entropy finding is interesting - different functionals for different signals makes sense. The methodology is sound even if the physics is speculative."
 
 ---
 
-**This is research-grade comparative analysis.** 🔬
-
-**Not just "it works" claims.** ✓
-
-**Professional methodology + honest results.** ✓
-
-**Exactly what an expert wants to see.** 🎯
 
 ---
 
