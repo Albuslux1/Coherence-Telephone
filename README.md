@@ -1,57 +1,97 @@
 # Coherence Telephone
-### Suppose the vacuum has been listening the whole time. We just learned its frequency.
 
-**"What if quantum 'spookiness' isn’t a bug — it’s the signature of a deeper substrate?"**
+**Suppose the vacuum has been listening the whole time.  
+We just learned its frequency.**
 
-The Coherence Telephone is a testable proposal: topologically protected qubits (Chern ≥ 3) coupled via axion electrodynamics can transmit information instantly across arbitrary distance by modulating the shared coherence field — not the qubit state.
+What if quantum “spookiness” isn’t a bug — it’s the signature of a deeper substrate?  
+A nonlocal coherence field that carries the patterns of reality itself.
 
-One experiment decides everything: **Earth–Moon latency test.**
-* Signal arrives in **<1.28 seconds** → The field is real.
-* Signal arrives at **≥1.28 seconds** → Hypothesis falsified.
+The Coherence Telephone is a testable proposal:  
+topologically protected qubits (Chern ≥ 3) coupled via axion electrodynamics can transmit information instantly across arbitrary distance by modulating the shared coherence field — not the qubit state.
 
-All hardware exists today. All math is public. All code runs on a laptop.
+One experiment decides everything:  
+**Earth–Moon latency test.**  
+Signal arrives in <1.28 seconds → the field is real.  
+Signal arrives at ≥1.28 seconds → hypothesis falsified.
 
-**Your move.**
+All hardware exists today.  
+All math is public.  
+All code runs on a laptop.
 
-— *John Bollinger (@AlbusLux1)*
-*December 2025*
+Your move.
+
+— John Bollinger (@AlbusLux1)  
+December 2025
 
 ---
 
-## 🔬 The Physics: Axion Electrodynamics
+## The Breakthrough: Axion Electrodynamics Coupling
 
 The key advance (v2, December 2025) is recognizing that the coherence field couples through the **established axion electrodynamics term**:
 
 $$\mathcal{L}_{\text{int}} = \frac{\alpha}{2\pi} \theta (\mathbf{E} \cdot \mathbf{B})$$
 
-<details>
-<summary><strong>📐 Click to Expand: Mathematical Frameworks</strong></summary>
-<br>
+with θ = 2π𝒞 set by topology.  
+This is **measured physics** in topological materials — now applied to quantum communication.
 
-**Path 1 – Minimal Model (Current Tests)**
-Coherence field $\Phi_{\mathcal{C}}$ modulates the strength of the axion term:
+**Two frameworks** (fully gauge-invariant):
+
+<details>
+<summary><strong>Path 1 – Minimal Model (Current Tests)</strong></summary>
+
+Coherence field Φ_𝒞 modulates the strength of the axion term:
+
 $$\mathcal{L}_{\text{int}} = f(\Phi_{\mathcal{C}}) \cdot \frac{\alpha}{2\pi} (\mathbf{E} \cdot \mathbf{B})$$
 
-**Path 2 – Dynamical Axion (Future Theory)**
-Promote $\theta$ to dynamical $\theta(x,t)$ and identify fluctuations with $\Phi_{\mathcal{C}}$.
+Conservative, testable today.
 
-* **[📄 READ: Full Math & Derivations](Math/advanced_foundations.md)**
+[Full derivation → Math/advanced_foundations.md](Math/advanced_foundations.md)
+</details>
+
+<details>
+<summary><strong>Path 2 – Dynamical Axion (Future Theory)</strong></summary>
+
+Promote θ to dynamical θ(x,t) and identify fluctuations with Φ_𝒞.  
+Gives wave equations and propagating modes.
+
+[Full derivation → Math/advanced_foundations.md](Math/advanced_foundations.md)
 </details>
 
 ---
 
-## 🛠️ System Architecture & Hardware
+## System Architecture
 
 ![Coherence Telephone Concept](Visuals/ct_concept_diagram.png)
 
-<details>
-<summary><strong>📋 Click to Expand: Hardware & Protocols</strong></summary>
-<br>
+Earth modulates E·B in a high-Q cavity → perturbs shared coherence field → Moon detects instantaneous change in local coherence.
 
-**The Mechanism:**
-Earth modulates $E \cdot B$ in a high-Q cavity → perturbs shared coherence field → Moon detects instantaneous change in local coherence.
+---
 
-**The Grocery List ($38M Prototype)**
+## The Critical Phase Transition
+
+Simulations reveal a sharp threshold at **J_coupling ≈ 8.0**:
+
+- J < 7.7 → no usable signal  
+- J = 8.0 → instant, error-free, galactic-range communication  
+
+![Phase Diagram](Visuals/coherence_telephone_phase_diagram.png)
+
+[Run the sweep → Simulations/critical_coupling_phase_diagram.py](Simulations/critical_coupling_phase_diagram.py)
+
+---
+
+## The Decisive Test: Earth–Moon Latency
+
+Distance: 384,000 km → light delay = 1.28 s
+
+If the signal arrives in **<1.28 seconds**, physics changes forever.
+
+[Full protocol → Hardware/earth_moon_test_protocol.txt](Hardware/earth_moon_test_protocol.txt)
+
+---
+
+## Hardware Grocery List ($38M Prototype)
+
 All parts exist today.
 
 | Item | Qty | Cost |
@@ -60,36 +100,30 @@ All parts exist today.
 | Borealis entanglement source | 1 | $800k |
 | Sapphire resonators | 2 | $240k |
 | THz pump + SNSPDs + fridges | – | ~$7M |
+| **Total** | | **$38M** |
 
-* **[📄 VIEW: Full Bill of Materials](Hardware/grocery_list_38M.txt)**
-* **[📄 READ: Earth-Moon Test Protocol](Hardware/earth_moon_test_protocol.txt)**
-</details>
-
----
-
-## 💻 Simulations & Critical Phase
-
-Simulations reveal a sharp threshold at **J_coupling ≈ 8.0**:
-* **J < 7.7** → No usable signal
-* **J = 8.0** → Instant, error-free, galactic-range communication
-
-![Phase Diagram](Visuals/coherence_telephone_phase_diagram.png)
-
-* **[🐍 RUN: Critical Coupling Phase Diagram](Simulations/critical_coupling_phase_diagram.py)**
-* **[🐍 RUN: Earth-Moon Latency Test](Simulations/earth_moon_enhanced_test.py)**
+[Full BOM → Hardware/grocery_list_38M.txt](Hardware/grocery_list_38M.txt)
 
 ---
 
-## 🧠 Philosophy
+## Causality & Temporal Integrity
 
-Nonlocal ≠ paradox. The **Principle of Temporal Integrity** forbids controllable causal loops. Quantum mysteries are not paradoxes — they are natural behaviors of a nonlocal coherence medium.
+Nonlocal ≠ paradox.  
+The **Principle of Temporal Integrity** forbids controllable causal loops.
 
-* **[📄 READ: Why the Universe Isn't Weird (The Coherence Field)](THE_COHERENCE_FIELD.md)**
-* **[📄 READ: The Principle of Temporal Integrity](principle_temporal_integrity.md)**
+[Full safeguard → principle_temporal_integrity.md](principle_temporal_integrity.md)
 
 ---
 
-## 🚀 Run the Code
+## Deeper Vision: The Coherence Field as Substrate
+
+Quantum mysteries are not paradoxes — they are natural behaviors of a nonlocal coherence medium.
+
+[Why the universe isn't weird → THE_COHERENCE_FIELD.md](THE_COHERENCE_FIELD.md)
+
+---
+
+## Run the Simulations
 
 ```bash
 pip install -r requirements.txt
