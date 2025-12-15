@@ -93,7 +93,8 @@ Where we are going and how we get there.
 </details>
 
 ---
-![Coherence-Telephone-HQ-example](https://github.com/user-attachments/assets/8266e3be-53d9-43e8-8b62-b73668da7e48)
+![Coherence-Telephone-EM-Modulation](https://github.com/user-attachments/assets/44b4cd70-7400-4eea-a90b-afc158ab9b21)
+
 
 ## ⚡ Quick Start
 
