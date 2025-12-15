@@ -31,13 +31,13 @@ These documents outline the technical and architectural foundations. They repres
     * *The primary technical overview of the system.*
 * **[📄 Read: Axion Electrodynamics Whitepaper](docs/whitepapers/AXION_ELECTRODYNAMICS_WHITEPAPER.md)**
     * *Deep dive into the coupling mechanism.*
-* **[📄 Read: Advanced Foundations](docs/math/Advanced_Foundations.md)**
+* **[📄 Read: Advanced Foundations](docs/Math/Advanced_Foundations.md)**
     * *Mathematical derivations and core theory.*
-* **[📄 Read: Equations of Motion](docs/math/EQUATIONS_OF_MOTION.md)**
+* **[📄 Read: Equations of Motion](docs/Math/EQUATIONS_OF_MOTION.md)**
     * *The governing equations for the coherence field.*
-* **[📄 Read: Functional Form](docs/math/FUNCTIONAL_FORM.md)**
+* **[📄 Read: Functional Form](docs/Math/FUNCTIONAL_FORM.md)**
     * *Details on the functional form of the interaction.*
-* **[📄 Read: Coupling Constant](docs/math/COUPLING_CONSTANT.md)**
+* **[📄 Read: Coupling Constant](docs/Math/COUPLING_CONSTANT.md)**
     * *Analysis of the coupling constants.*
 </details>
 
@@ -46,11 +46,11 @@ These documents outline the technical and architectural foundations. They repres
 <br>
 Understanding the "Why" and the nature of the coherence field.
 
-* **[📄 Read: The Coherence Field](docs/philosophy/THE_COHERENCE_FIELD_AS_QUANTUM_SUBSTRATE.md)**
+* **[📄 Read: The Coherence Field](docs/Philosophy/THE_COHERENCE_FIELD_AS_QUANTUM_SUBSTRATE.md)**
     * *Why the universe isn't weird: The Coherence Field as a substrate.*
-* **[📄 Read: Alternative Formulation EM Potential](docs/philosophy/Alternative_Formulation_EM_Potential.md)**
+* **[📄 Read: Alternative Formulation EM Potential](docs/Philosophy/Alternative_Formulation_EM_Potential.md)**
     * *Alternative perspectives on the electromagnetic potential.*
-* **[📄 Read: The Principle of Temporal Integrity](docs/philosophy/PRINCIPLE_TEMPORAL_INTEGRITY.md)**
+* **[📄 Read: The Principle of Temporal Integrity](docs/Philosophy/PRINCIPLE_TEMPORAL_INTEGRITY.md)**
     * *Safeguards against causality violations.*
 </details>
 
