@@ -46,11 +46,11 @@ These documents outline the technical and architectural foundations. They repres
 <br>
 Understanding the "Why" and the nature of the coherence field.
 
-* **[📄 Read: The Coherence Field](docs/philosophy/THE_COHERENCE_FIELD.md)**
+* **[📄 Read: The Coherence Field](docs/philosophy/THE_COHERENCE_FIELD_AS_QUANTUM_SUBSTRATE.md)**
     * *Why the universe isn't weird: The Coherence Field as a substrate.*
 * **[📄 Read: Alternative Formulation EM Potential](docs/philosophy/Alternative_Formulation_EM_Potential.md)**
     * *Alternative perspectives on the electromagnetic potential.*
-* **[📄 Read: The Principle of Temporal Integrity](principle_temporal_integrity.md)**
+* **[📄 Read: The Principle of Temporal Integrity](docs/philosophy/PRINCIPLE_TEMPORAL_INTEGRITY.md)**
     * *Safeguards against causality violations.*
 </details>
 
