@@ -89,7 +89,7 @@ Our simulations comparing entropy-based coherence vs E·B-based coherence showed
 
 Systems with **matching Chern numbers** show high correlation. Mismatched systems show low correlation.
 
-![Topology Addressing](Visuals/topology_addressing.png)
+![Topology Addressing](assets/topology_addressing.png)
 
 **Key finding:** Node A (𝒞=3) correlates strongly with Node B (𝒞=3), but weakly with Node C (𝒞=2).
 
@@ -97,19 +97,19 @@ Systems with **matching Chern numbers** show high correlation. Mismatched system
 
 E·B-based detection dramatically outperforms entropy-based detection.
 
-![Coupling Comparison](Visuals/coupling_comparison.png)
+![Coupling Comparison](assets/coupling_comparison.png)
 
 ### 3. Chern Number Scaling
 
 Higher Chern numbers provide stronger coupling and cleaner signals.
 
-![Chern Coupling](Visuals/chern_coupling_strength.png)
+![Chern Coupling](assets/chern_coupling_strength.png)
 
 **This is why 𝒞 ≥ 3 is specified in the protocol.**
 
 ### 4. The Complete Coupling Chain
 
-![Coupling Chain](Visuals/coupling_chain.png)
+![Coupling Chain](assets/coupling_chain.png)
 
 ---
 
@@ -183,7 +183,7 @@ Understanding the "Why" and the nature of the coherence field as a quantum subst
 ### 🛠️ [Section 3: Hardware & Protocols](Hardware/)
 The blueprints, grocery lists, and testing protocols required to build the device.
 * **[Phase 1 Tabletop Protocol](Hardware/PROTOCOL_Phase1_Tabletop.md)** – The $2M validation experiment.
-* **[Earth-Moon Test Protocol](Hardware/earth_moon_test_protocol.txt)** – The definitive latency test.
+* **[Earth-Moon Test Protocol](Hardware/earth_moon_test_protocol.md)** – The definitive latency test.
 * **[Hardware Grocery List ($38M)](Hardware/grocery_list_38M.txt)** – Complete Bill of Materials.
 * **[System Architecture Diagram](assets/Technical_System_Architecture_EB.png)** – Full signal chain visualization.
 
