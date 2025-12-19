@@ -8,10 +8,16 @@ topologically protected qubits (Chern ≥ 3) coupled via axion
 electrodynamics can transmit information instantly across arbitrary
 distance by modulating the shared coherence field — not the qubit state.
 
-**One experiment decides everything: Earth–Moon latency test.**
+**The Central Physics Question:**
+Is quantum non-locality a statistical abstraction, or a physical field?
+Currently, this debate is stuck in theory. We propose an experiment to resolve it.
 
-* Signal arrives in <1.28 seconds → **The field is real.**
-* Signal arrives at ≥1.28 seconds → **Hypothesis falsified.**
+**Phase 1: The Tabletop Falsification Test**
+We propose a short-baseline laboratory experiment using topological insulators to detect
+non-local correlations that strictly obey **Topological Addressing** ($\mathcal{C}_{TX} = \mathcal{C}_{RX}$).
+
+* **Null Hypothesis:** No signal is detected, or signal persists when topologies are mismatched (classical leakage).
+* **Alternative Hypothesis:** Signal is detected **only** when Chern numbers match, confirming the topological coupling mechanism.
 
 All hardware exists today. All math is public. All code runs on a laptop.
 
@@ -24,147 +30,6 @@ All hardware exists today. All math is public. All code runs on a laptop.
 
 ## 📂 Project Documentation
 Click the sections below to access the files.
-[README_BREAKTHROUGH_SECTION.md](https://github.com/user-attachments/files/24251573/README_BREAKTHROUGH_SECTION.md)# 🔬 BREAKTHROUGH: Coupling Mechanism Identified
-
-<details>
-<summary><b>⚡ CLICK TO EXPAND: How Topology Couples to EM Fields — The Missing Physics</b></summary>
-
----
-
-## The Question We Answered
-
-**How does a topological quantum number (Chern number) couple to a physical electromagnetic field?**
-
-This was the critical gap in our framework. Thanks to feedback from Dr.-Ing. Paul Wilhelm, we discovered the answer isn't speculation—it's **established condensed matter physics**.
-
----
-
-## The Answer: Axion Electrodynamics
-
-### The Key Equation
-
-In topological materials, Maxwell's equations gain an additional term:
-
-$$\Delta \mathcal{L} = \frac{\theta \alpha}{2\pi} (\mathbf{E} \cdot \mathbf{B})$$
-
-Where **θ = 2π𝒞** (axion angle equals 2π times the Chern number).
-
-### What This Means
-
-| Concept | Formula | Physical Meaning |
-|:--------|:--------|:-----------------|
-| **Axion angle** | θ = 2π𝒞 | Chern number directly sets the EM coupling |
-| **Coupling term** | ΔL ∝ θ(E·B) | E·B product is the canonical coupling |
-| **Addressing** | Same 𝒞 → Same θ | Systems with matching topology couple to same field mode |
-
-### The Coupling Chain
-
-```
-𝒞 (Chern) → θ = 2π𝒞 → ΔL = (θα/2π)(E·B) → Coherence modulation → Signal?
-     ↑                           ↑                                    ↑
-  Topology              Established physics                    Our hypothesis
-```
-
----
-
-## Why E·B Modulation Shows 100× Improvement
-
-Our simulations comparing entropy-based coherence vs E·B-based coherence showed ~100× higher sensitivity for E·B methods.
-
-**Reason:** E·B directly targets the **canonical axion coupling term**. It's the physically correct lever for topology-dependent fields.
-
-| Method | Sensitivity | Physical Basis |
-|:-------|:-----------:|:---------------|
-| Entropy (S/k) | 1× | Thermodynamic proxy |
-| **E·B gradient** | **~100×** | **Direct axion coupling** |
-| F_μν F^μν | ~80× | Lorentz-invariant form |
-
----
-
-## Simulation Results (Toy Demonstrations)
-
-> ⚠️ **DISCLAIMER:** These are theoretical demonstrations only—not experimental predictions. Coupling constants are illustrative. Real validation requires laboratory measurement.
-
-### 1. Topology-Selective Addressing
-
-Systems with **matching Chern numbers** show high correlation. Mismatched systems show low correlation.
-
-![Topology Addressing](assets/topology_addressing.png)
-
-**Key finding:** Node A (𝒞=3) correlates strongly with Node B (𝒞=3), but weakly with Node C (𝒞=2).
-
-### 2. Coupling Method Comparison
-
-E·B-based detection dramatically outperforms entropy-based detection.
-
-![Coupling Comparison](assets/coupling_comparison.png)
-
-### 3. Chern Number Scaling
-
-Higher Chern numbers provide stronger coupling and cleaner signals.
-
-![Chern Coupling](assets/chern_coupling_strength.png)
-
-**This is why 𝒞 ≥ 3 is specified in the protocol.**
-
-### 4. The Complete Coupling Chain
-
-![Coupling Chain](assets/coupling_chain.png)
-
----
-
-## Updated Coherence Field Formulation
-
-### Old (Entropy-Based):
-$$C = e^{-S/k} \cdot \Phi$$
-
-### New (E·B-Based):
-$$C = \exp\left(-\beta \int_0^T |\mathbf{E} \cdot \mathbf{B}|^2 \, dt\right) \cdot \Phi_{\mathcal{C}}$$
-
-Where:
-- **β** = coupling constant (to be determined experimentally)
-- **Φ_𝒞** = coherence potential for topology mode 𝒞
-
----
-
-## Connection to Established Physics
-
-This is **not new physics**—it's an extension of measured phenomena:
-
-| Established Result | Our Extension |
-|:-------------------|:--------------|
-| Topological magnetoelectric effect (measured in Bi₂Se₃, Bi₂Te₃) | Same coupling, applied to quantum communication |
-| Axion angle θ = π in 3D TIs | Use higher 𝒞 for stronger coupling |
-| Quantized Hall conductance | Quantized coherence field addressing |
-
-**Key references:**
-- Qi, Hughes, Zhang (2008): "Topological field theory of time-reversal invariant insulators"
-- Essin, Moore, Vanderbilt (2009): "Magnetoelectric polarizability and axion electrodynamics"
-- Wilczek (1987): "Two applications of axion electrodynamics"
-
----
-
-## What This Changes
-
-1. **Addressing mechanism is now grounded** in established physics
-2. **E·B modulation is the correct lever** (explains 100× sensitivity improvement)
-3. **Coupling strength scales with 𝒞** (quantitative prediction)
-4. **The framework extends known physics** rather than inventing new physics
-
----
-
-## Full Technical Whitepaper
-
-📄 **[AXION_ELECTRODYNAMICS_WHITEPAPER.md](AXION_ELECTRODYNAMICS_WHITEPAPER.md)** — Complete 2-page explanation with all formulas, derivations, and experimental predictions.
-
----
-
-*"The vacuum was listening the whole time. We just learned its frequency."*
-
-</details>
-
----
-
 
 ### 📄 [Section 1: Core Whitepapers & Physics (Start Here)](docs/whitepapers/)
 The complete physical and mathematical framework, from the axion coupling mechanism to signal strength predictions.
@@ -178,12 +43,12 @@ The complete physical and mathematical framework, from the axion coupling mechan
 Understanding the "Why" and the nature of the coherence field as a quantum substrate.
 * **[The Coherence Field as Quantum Substrate](docs/Philosophy/THE_COHERENCE_FIELD_AS_QUANTUM_SUBSTRATE.md)** – Why the universe isn't weird.
 * **[The Principle of Temporal Integrity](docs/Philosophy/PRINCIPLE_TEMPORAL_INTEGRITY.md)** – Why this doesn't break causality.
+* **[Grand Unified Theory of Coherence](docs/Philosophy/coherence_field_derivation.md)** – Foundations of the Bollinger-Kerr Drive physics.
 * **[Alternative Formulation: EM Potential](docs/Philosophy/Alternative_Formulation_EM_Potential.md)** – Gauge-invariant field definitions.
 
 ### 🛠️ [Section 3: Hardware & Protocols](Hardware/)
 The blueprints, grocery lists, and testing protocols required to build the device.
 * **[Phase 1 Tabletop Protocol](Hardware/PROTOCOL_Phase1_Tabletop.md)** – The $2M validation experiment.
-* **[Earth-Moon Test Protocol](Hardware/earth_moon_test_protocol.md)** – The definitive latency test.
 * **[Hardware Grocery List ($38M)](Hardware/grocery_list_38M.txt)** – Complete Bill of Materials.
 * **[System Architecture Diagram](assets/Technical_System_Architecture_EB.png)** – Full signal chain visualization.
 
@@ -202,7 +67,14 @@ Python simulations to validate the theory. **(Ordered by Breakdown Priority)**
     * *The Big One:* Simulates the full 384,000 km link budget.
 
 ### 🚀 [Section 5: Roadmap & Future](ROADMAP.md)
-* **[24-Month Execution Plan](ROADMAP.md)** – From git clone to lunar signal.
+The development path is structured to minimize risk, with "kill gates" at each phase.
+
+* **Phase 1 (Year 1):** Tabletop Validation.
+* **Phase 2 (Year 2):** Long-Distance Ground Test (100km).
+* **[Phase 3: The Definitive Earth-Moon Test](Hardware/earth_moon_test_protocol.txt)**
+    * *One experiment decides everything.*
+    * Signal arrives in <1.28 seconds → **The field is real.**
+    * Signal arrives at ≥1.28 seconds → **Hypothesis falsified.**
 * **[Dual Licensing Model](License.md)** – Open for science, protected for commerce.
 
 ---
