@@ -57,6 +57,7 @@ Just like electrons in a Chern Insulator, magnons in a ferromagnet with broken t
 3.  **[cavity_ringdown_simulation.py](Magnon-Implementation/Simulations/cavity_ringdown_simulation.py)** – Predicts the specific Rabi oscillation signature for the lab experiment.
 
 **Credit:** This approach was proposed by **Dr.-Ing. Paul Wilhelm**, whose insight into quasiparticle topology dramatically accelerated our timeline and reduced the barrier to entry.
+<img width="2816" height="1536" alt="smoking_gun_topological_addressing png" src="https://github.com/user-attachments/assets/21135991-f5d0-493b-9e85-9a40e63726b3" />
 
 ---
 
