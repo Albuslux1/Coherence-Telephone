@@ -1,6 +1,8 @@
 [README_BREAKTHROUGH_SECTION.md](https://github.com/user-attachments/files/24267539/README_BREAKTHROUGH_SECTION.md)# Coherence Telephone
 ### Suppose the vacuum has been listening the whole time. We just learned its frequency.
-
+![Status](https://img.shields.io/badge/Phase-1_B_Experimental_Protocol-blue)
+![Temperature](https://img.shields.io/badge/Temperature-300_K-green)
+![Cost](https://img.shields.io/badge/Cost-<$50k-brightgreen)
 > "What if quantum 'spookiness' isn’t a bug — it’s the signature of a deeper substrate?"
 
 The Coherence Telephone is a testable proposal:
