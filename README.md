@@ -49,10 +49,10 @@ Just like electrons in a Chern Insulator, magnons in a ferromagnet with broken t
 * **[HARDWARE_REQUIREMENTS.md](Magnon-Implementation/HARDWARE_REQUIREMENTS.md)** – The <$50k Bill of Materials (BOM).
 * **[COST_COMPARISON.md](Magnon-Implementation/COST_COMPARISON.md)** – Financial breakdown: Why this is 10x cheaper than qubits.
 
-### 📄 Simulations (in `Simulations/Magnon_Implementation/`)
-1.  **[magnon_hamiltonian_sweep.py](Simulations/Magnon-Implementation/magnon_hamiltonian_sweep.py)** – Proves that $\mathcal{C}=3$ is achievable in magnetic insulators.
-2.  **[magnon_full_sweep_dynamics.py](Simulations/Magnon-Implementation/magnon_full_sweep_dynamics.py)** – Demonstrates signal transfer fidelity $>99\%$ between matched YIG spheres.
-3.  **[cavity_ringdown_simulation.py](Simulations/Magnon-Implementation/cavity_ringdown_simulation.py)** – Predicts the specific Rabi oscillation signature for the lab experiment..
+### 📄 Simulations (in `Magnon-Implementation/Simulations/`)
+1.  **[magnon_hamiltonian_sweep.py](Magnon-Implementation/Simulations/magnon_hamiltonian_sweep.py)** – Proves that $\mathcal{C}=3$ is achievable in magnetic insulators.
+2.  **[magnon_full_sweep_dynamics.py](Magnon-Implementation/Simulations/magnon_full_sweep_dynamics.py)** – Demonstrates signal transfer fidelity $>99\%$ between matched YIG spheres.
+3.  **[cavity_ringdown_simulation.py](Magnon-Implementation/Simulations/cavity_ringdown_simulation.py)** – Predicts the specific Rabi oscillation signature for the lab experiment.
 
 **Credit:** This approach was proposed by **Dr.-Ing. Paul Wilhelm**, whose insight into quasiparticle topology dramatically accelerated our timeline and reduced the barrier to entry.
 
