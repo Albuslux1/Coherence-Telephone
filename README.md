@@ -222,6 +222,7 @@ Understanding the "Why" and the nature of the coherence field as a quantum subst
 * **[The Principle of Temporal Integrity](docs/Philosophy/PRINCIPLE_TEMPORAL_INTEGRITY.md)** – Why this doesn't break causality.
 * **[Alternative Formulation: EM Potential](docs/Philosophy/Alternative_Formulation_EM_Potential.md)** – Gauge-invariant field definitions.
 * **[The Cosmic Coherence Field (CCF) Theory](docs/philosophy/THE_COSMIC_COHERENCE_FIELD.md)** – A unified framework proposing that reality emerges from a zero-entropy quantum substrate. It connects the Coherence Telephone experiment to quantum gravity, dark energy, and the measurement problem.
+* **[The Entropy-Coherence Dynamic](docs/philosophy/THE_ENTROPY_COHERENCE_DYNAMIC.md)** – Explores how spacetime emerges from the interplay between thermodynamic entropy and quantum coherence, and how topological protection creates a local reversal of this cosmic flow.
 ### 🛠️ [Section 3: Hardware & Protocols](Hardware/)
 The blueprints, grocery lists, and testing protocols required to build the device.
 * **[Phase 1 Tabletop Protocol](Hardware/PROTOCOL_Phase1_Tabletop.md)** – The $2M validation experiment.
